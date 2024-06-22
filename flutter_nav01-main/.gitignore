@@ -1,0 +1,115 @@
+# https://www.toptal.com/developers/gitignore/api/macos,windows,visualstudiocode,dart에 의해 생성됨
+# https://www.toptal.com/developers/gitignore?templates=macos,windows,visualstudiocode,dart에서 편집하세요.
+
+### 다트 ###
+# https://www.dartlang.org/guides/libraries/private-files를 참조하세요.
+
+# pub에서 생성된 파일 및 디렉터리
+.dart_tool/
+.패키지
+짓다/
+# 애플리케이션을 구축하는 경우 pubspec.lock을 체크인하는 것이 좋습니다.
+pubspec.lock
+
+# dartdoc에 의해 생성된 디렉토리
+# 로컬에서 문서를 생성하지 않는 경우 이 줄을 제거할 수 있습니다.
+문서/API/
+
+# dotenv 환경 변수 파일
+.env*
+
+# 생성된 Javascript 파일을 커밋하지 마세요:
+*.dart.js
+*.info.json # --dump-info 플래그에 의해 생성됩니다.
+*.js # dart2js에 의해 생성된 경우. 다음과 같은 경우 *.js를 지정하지 마세요.
+                 # 프로젝트에는 JavaScript로 작성된 소스 파일이 포함되어 있습니다.
+*.js_
+*.js.deps
+*.js.map
+
+.flutter 플러그인
+.flutter-플러그인-종속성
+
+### 다트 패치 ###
+# dotenv 환경 변수 파일
+.env
+
+### 맥 OS ###
+# 일반적인
+.DS_스토어
+.AppleDouble
+.LS오버라이드
+
+# 아이콘은 두 개의 \r로 끝나야 합니다
+상
+
+
+# 썸네일
+._*
+
+# 볼륨의 루트에 나타날 수 있는 파일
+.DocumentRevisions-V100
+.fseventsd
+.스포트라이트-V100
+.임시항목
+.쓰레기통
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# 원격 AFP 공유에 생성될 수 있는 디렉터리
+.AppleDB
+.AppleDesktop
+네트워크 휴지통 폴더
+임시 항목
+.apdisk
+
+### macOS 패치 ###
+# iCloud로 생성된 파일
+*.아이클라우드
+
+### 비주얼 스튜디오코드 ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Visual Studio Code의 로컬 기록
+.역사/
+
+# Visual Studio Code 확장 구축
+*.vsix
+
+### VisualStudioCode 패치 ###
+# 파일의 모든 로컬 기록을 무시합니다.
+.역사
+.이온화물
+
+### 윈도우즈 ###
+# Windows 썸네일 캐시 파일
+Thumbs.db
+Thumbs.db:암호화 가능
+ethhumbs.db
+ehthumbs_vista.db
+
+# 덤프 파일
+*.스택덤프
+
+# 폴더 구성 파일
+[Dd]esktop.ini
+
+# 파일 공유에 사용되는 휴지통
+$재활용.BIN/
+
+# Windows 설치 프로그램 파일
+*.택시
+*.msi
+*.msix
+*.msm
+*.msp
+
+# 윈도우 단축키
+*.lnk
+
+# https://www.toptal.com/developers/gitignore/api/macos,windows,visualstudiocode,dart 끝
